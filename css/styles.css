@@ -95,3 +95,30 @@ table tr:nth-child(odd) td {
     background-color: rgba(22, 128, 146, 0.3);
 }
 
+/* Ejemplos de estilos para botones */
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-bottom: 4px solid rgb(175, 66, 47);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+}
+
+button.outline {
+    background-color: white;
+    color: rgb(175, 66, 47);
+    border: 1px solid rgb(175, 66, 47);
+    border-bottom: 4px solid rgb(175, 66, 47);
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(204, 80, 58);
+    border: 1px solid rgb(204, 80, 58);
+    border-bottom: 4px solid rgb(175, 66, 47);
+}
